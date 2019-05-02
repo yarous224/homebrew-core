@@ -23,7 +23,7 @@ class Cgal < Formula
       -DCMAKE_INSTALL_NAME_DIR=#{HOMEBREW_PREFIX}/lib
       -DWITH_Eigen3=ON
       -DWITH_LAPACK=ON
-      -DWITH_CGAL_Qt5=OFF
+      -DWITH_CGAL_Qt5=ON
       -DWITH_CGAL_ImageIO=OFF
     ]
     system "cmake", ".", *args
